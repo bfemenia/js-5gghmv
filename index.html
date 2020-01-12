@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Jude moon">
+    <title>Visualización de datos del Titanic</title>
+
+    <!-- load d3 and dimple libraries -->
+    <script src="http://d3js.org/d3.v4.min.js"></script>
+    <script src="http://dimplejs.org/dist/dimple.v2.3.0.min.js"></script>
+
+    <!-- add styles to text and graphics -->
+    <style>
+        h1 {
+            background-color: blue;
+            color: floralwhite;
+            font-family: Helvetica, sans-serif;
+            width: 100%;
+            height: 80px;
+            text-align: center;
+            padding-top: 30px;
+        }
+        h2 {
+            font-size: 1.4em;
+            text-transform: uppercase;
+            font-family: Helvetica;
+            color: #000;
+            margin-top: 0;
+        }
+        h3 {
+            font-family: Helvetica, sans-serif;
+            text-align: center;
+        }
+        h4 {
+            font-family: Helvetica, sans-serif;
+            text-align: left;
+        }
+        div.text {
+            font-family: Helvetica;
+            padding: 5px;
+            margin: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+
+<body>
+    <h1 class="main-title">Estudiantes STEM en España vs. UE</h1>
+    <h4 class="main-autor">Nombre: Bruno Femenía Castellá</h3>
+    <h4 class="main-url">Url: <a href="https://js-5gghmv.stackblitz.io">https://js-5gghmv.stackblitz.io</a></h3>
+    <h4 class="main-fuente">Fuentes:
+      <br>
+       <a href="https://www.kaggle.com/francksylla/titanic-machine-learning-from-disaster/data">https://www.kaggle.com/francksylla/titanic-machine-learning-from-disaster/data</a></h3>
+    <h4 class="main-fecha">Fecha: 12/1/2020</h4>
+    <br>
+    <br>
+
+    <!-- add intro text to the page body -->
+    <div class="summary">
+        <h2 class="text-title">Resumen</h2>
+        <div class="text">
+El objetivo de este proyecto es comprobar, mediante visualizaciones, si la evolución del número de estudiantes en disciplinas científico-técnicas en España sigue la misma tendencia que los países de referencia en nuestro entorno socio-económico (la UE) y también se compara con la situación en los USA y Japón (idealmente hubiese incluido China, pero los datos no están disponibles en la web de OCDEstat).
+<br>
+<br>
